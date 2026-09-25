@@ -1,0 +1,9 @@
+@echo off
+echo Abriendo Visual Studio Code...
+start "" code .
+echo Iniciando servidor Figma MCP...
+for /f "tokens=2 delims==" %%a in ('findstr FIGMA_API_KEY .env') do set FIGMA_KEY=%%a
+start cmd /k "figma-developer-mcp --figma-api-key=%FIGMA_KEY%"
+timeout /t 3
+echo Abriendo Claude Code...
+claude
