@@ -1563,8 +1563,8 @@ h2.process-title{max-width:none;}
 .qf-step.is-active{display:block;animation:qfStepIn .35s ease both;}
 @keyframes qfStepIn{from{opacity:0;transform:translateX(14px);}to{opacity:1;transform:translateX(0);}}
 
-h2.qf-step__q{font-family:var(--display);font-weight:700;letter-spacing:-.02em;
-  font-size:clamp(19px,1.7vw,22px);line-height:1.15;color:var(--ink);margin-bottom:20px;max-width:none;}
+h2.qf-step__q{font-family:var(--display);font-weight:700;letter-spacing:-.03em;
+  font-size:clamp(25px,2.5vw,32px);line-height:1.08;color:var(--ink);margin-bottom:22px;max-width:none;}
 .qf-step__count{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.14em;
   text-transform:uppercase;color:var(--accent);margin-bottom:12px;}
 .qf-step__intro{font-family:var(--body);font-weight:600;font-size:19px;line-height:1.35;color:var(--ink);margin-bottom:22px;}
